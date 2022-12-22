@@ -1,19 +1,19 @@
 import * as dotenv from "dotenv";
 dotenv.config();
 
-const DB_CLIENT = process.env.DB_CLIENT_SQL || "mysql"
-const DB_HOST = process.env.DB_HOST_SQL || "localhost";
-const DB_PORT = Number(process.env.DB_PORT_SQL) || 3306
-const DB_USER = process.env.DB_USER_SQL || "root"
-const DB_NAME = process.env.DB_NAME_SQL || "bd_productos"
+const db_client = process.env.DB_CLIENT_SQL || "mysql"
+const db_host = process.env.DB_HOST_SQL || "localhost";
+const db_port = Number(process.env.DB_PORT_SQL) || 3306
+const db_user = process.env.DB_USER_SQL || "root"
+const db_name = process.env.DB_NAME_SQL || "bd_productos"
 
 const connection = {
-    client: `${DB_CLIENT}`,
+    client: `${db_client}`,
     connection: {
-        host:`${DB_HOST}`,
-        port: `${DB_PORT}`,
-        user: `${DB_USER}`,
-        database: `${DB_NAME}`,
+        host:`${db_host}`,
+        port: `${db_port}`,
+        user: `${db_user}`,
+        database: `${db_name}`,
     },
 };
 
