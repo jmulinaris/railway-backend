@@ -1,19 +1,19 @@
 import * as dotenv from "dotenv";
 dotenv.config();
 
-const db_client = process.env.DB_CLIENT_SQL;
-const db_host = process.env.DB_HOST_SQL;
-const db_port = Number(process.env.DB_PORT_SQL);
-const db_user = process.env.DB_USER_SQL;
-const db_name = process.env.DB_NAME_SQL;
+const DB_CLIENT = process.env.DB_CLIENT_SQL;
+const DB_HOST = process.env.DB_HOST_SQL;
+const DB_PORT = Number(process.env.DB_PORT_SQL);
+const DB_USER = process.env.DB_USER_SQL;
+const DB_NAME = process.env.DB_NAME_SQL;
 
 const connection = {
-    client: `${db_client}`,
+    client: `${DB_CLIENT}`,
     connection: {
-        host:`${db_host}`,
-        port: `${db_port}`,
-        user: `${db_user}`,
-        database: `${db_name}`,
+        host:`${DB_HOST}`,
+        port: `${DB_PORT}`,
+        user: `${DB_USER}`,
+        database: `${DB_NAME}`,
     },
 };
 

@@ -7,3 +7,19 @@
 [2022-12-21T18:36:59.170] [WARN] default - Failed request GET at /favicon.ico
 [2022-12-21T18:37:10.719] [WARN] default - Failed request GET at /favicon.ico
 [2022-12-21T18:44:34.535] [WARN] default - Failed request GET at /favicon.ico
+[2022-12-22T11:57:56.788] [WARN] default - Failed request GET at /favicon.ico
+[2022-12-22T11:58:05.410] [ERROR] default - Api de productos: Error: connect ECONNREFUSED 127.0.0.1:3306
+[2022-12-22T11:58:05.579] [WARN] default - Failed request GET at /favicon.ico
+[2022-12-22T11:59:00.778] [WARN] default - Failed request GET at /favicon.ico
+[2022-12-22T11:59:16.909] [WARN] default - Failed request GET at /undefined
+[2022-12-22T11:59:52.135] [WARN] default - Failed request GET at /favicon.ico
+[2022-12-22T11:59:53.131] [WARN] default - Failed request GET at /undefined
+[2022-12-22T12:00:13.029] [WARN] default - Failed request GET at /favicon.ico
+[2022-12-22T12:10:14.251] [WARN] default - Failed request GET at /favicon.ico
+[2022-12-22T15:12:28.677] [WARN] default - Failed request GET at /favicon.ico
+[2022-12-22T15:12:38.407] [WARN] default - Failed request GET at /favicon.ico
+[2022-12-22T15:22:41.229] [WARN] default - Failed request GET at /favicon.ico
+[2022-12-22T15:39:54.938] [WARN] default - Failed request GET at /favicon.ico
+[2022-12-22T15:40:06.924] [WARN] default - Failed request GET at /favicon.ico
+[2022-12-22T15:40:12.645] [WARN] default - Failed request GET at /favicon.ico
+[2022-12-22T15:40:15.217] [WARN] default - Failed request GET at /favicon.ico
