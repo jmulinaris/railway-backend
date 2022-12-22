@@ -125,19 +125,19 @@ app.all("*", (req, res, next) => {
 //* Puerto como parámetro
 const options= {
   alias: {
-    p: "PORT",
     m: "MODO",
   },
   default: {
-    PORT: 8080,
     MODO: "FORK",
   }
 }
 
 const argv = process.argv.slice(2);
-const { PORT, MODO } = ParseArgs(argv, options)
+const { MODO } = ParseArgs(argv, options)
+const PORT = process.env.PORT || 8080
 
 const cpu = cpus().length;
+
 
 if (MODO == "CLUSTER") {
   if (cluster.isPrimary) {
